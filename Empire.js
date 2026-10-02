@@ -5474,9 +5474,9 @@ bot.onText(/\/delbot (.+)/, async (msg, match) => {
 
 // Auto Update
 // ============= KONSTANTA REPO =============
-const Owner = "Kenzzdev11";           // username GitHub
-const Repo = "AutoUpdateEmpire";           // nama repository
-const BranchPath = "main/Empire.js"; // branch + path file (contoh: main/index.js)
+const Owner = "ndraa15-ron";
+const Repo = "AutoUpdateEmpire";
+const BranchPath = "main/Empire.js";
 
 // Membangun raw URL dari konstanta
 const DEFAULT_RAW_URL = `https://raw.githubusercontent.com/${Owner}/${Repo}/${BranchPath}`;
